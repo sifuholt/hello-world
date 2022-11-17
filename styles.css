@@ -24,7 +24,7 @@ h1 {
     margin-left: 20px;
     margin-right: 50px;
     color: rgb(173, 165, 165);
-    text-shadow: 5px 5px 5px white;
+    text-shadow: 5px 5px 5px rgb(161, 24, 24);
 }
 
 nav {
@@ -52,6 +52,8 @@ main {
     margin: 10px;
     text-align: center;
 }
+
+
 
 
 
