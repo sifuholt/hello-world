@@ -66,7 +66,15 @@ function myCount() {
 myCount();
 
 
-
+function selectaleaf() {
+    let selection = prompt ('how many apps would you like?');
+    while (selection < 1 || selection >5 ) {
+        selection = prompt ('must be between 1 and 5')
+}
+for (let i = 0; i < selection; i++) {
+    console.log(i)
+    document.write("<img src= 'images/stuff alt='leaf' />")
+}
 
 
 
