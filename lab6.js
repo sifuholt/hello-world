@@ -2,6 +2,9 @@
 
 function question1() {
     let input = prompt("what is your name?");
+    if(input.length === 0) {
+        input = prompt("no really, what is your name?");
+    }
     document.write("hello and welcome to my place in the universe " + input);
     return input;
 }
@@ -23,5 +26,15 @@ function question3() {
         // document.write("depends on how you define happy.")
     // }
 // }
+
+
+
+function rateMyPage(){
+    let rating = prompt("how many stars would you rate my page?");
+    for (let i = 0; i < rating; i++){
+        // document.write("<img src='star.jpg' alt='shiny gold star' />");
+        document.write("STAR ")
+    }
+}
 
 
