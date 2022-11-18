@@ -55,3 +55,18 @@ function userName(){
     return user;
 }
 
+
+function myCount() {
+    let count = prompt("pick a number 1-5");
+    for (i = 0; i < count; i++) {
+        console.log(i);
+    }
+}
+
+myCount();
+
+
+
+
+
+
