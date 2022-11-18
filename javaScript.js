@@ -13,24 +13,24 @@
 
 
 
-// <script>
-//     alert('Halt!, who goes there??');
-//     console.log('this is my first attempt at this!');
-//     let usersName = prompt("Who is it that wishes to enter?");
-//     console.log("The user's name is: ", usersName);
-//     document.write("Hello and welcome to my first attempt at this, " + usersName);
+<script>
+    alert('Halt!, who goes there??');
+    console.log('this is my first attempt at this!');
+    let usersName = prompt("Who is it that wishes to enter?");
+    console.log("The user's name is: ", usersName);
+    document.write("Hello and welcome to my first attempt at this, " + usersName);
     
-//     let response = prompt("how can we help you?")
+    let response = prompt("how can we help you?")
 
-// if (response == "food") {
-//     alert("you are in for a treat");
-//     document.write("you are in for a treat");
-//     else if (response == "drink") {
-//     alert("we have some good desserts");
-//     document.write("we have some good desserts");
-//     }
+if (response == "food") {
+    alert("you are in for a treat");
+    document.write("you are in for a treat");
+    else if (response == "drink") {
+    alert("we have some good desserts");
+    document.write("we have some good desserts");
+    }
 // }
-// </script>
+</script>
 // first();
 
 
