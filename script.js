@@ -12,25 +12,28 @@
 
 
 
-
-<script>
+function entry() {
     alert('Halt!, who goes there??');
     console.log('this is my first attempt at this!');
     let usersName = prompt("Who is it that wishes to enter?");
     console.log("The user's name is: ", usersName);
     document.write("Hello and welcome to my first attempt at this, " + usersName);
     
-    let response = prompt("how can we help you?")
+    // let response = prompt("how can we help you?")
 
-if (response == "food") {
-    alert("you are in for a treat");
-    document.write("you are in for a treat");
-    else if (response == "drink") {
-    alert("we have some good desserts");
-    document.write("we have some good desserts");
-    }
+// if (response == "food") {
+    // alert("you are in for a treat");
+    // document.write("you are in for a treat");
+    // else if (response == "drink") {
+    // alert("we have some good desserts");
+    // document.write("we have some good desserts");
+    // }
 // }
-</script>
+}
+
+
+
+
 // first();
 
 
@@ -95,31 +98,31 @@ if (response == "food") {
 
 
 
-<body>
-    <script>
-        alert("hey there, how can we help?");
-        console.log("choose wisely!");
-        let usersName = prompt("who is asking?");
-        console.log("it is I: " + usersName);
-        document.write("hello and come on in, " + usersName);
+{/* <body> */}
+    {/* <script> */}
+        {/* alert("hey there, how can we help?"); */}
+        {/* console.log("choose wisely!"); */}
+        {/* let usersName = prompt("who is asking?"); */}
+        {/* console.log("it is I: " + usersName); */}
+        {/* document.write("hello and come on in, " + usersName); */}
 
-        let response = prompt("do you like puerto rican food?")
+        {/* let response = prompt("do you like puerto rican food?") */}
 
-        if (response == "yes") {
-            alert("you are in the right place for sure!");
-            document.write("you are in the right place for sure!");
-        } else if (response == "no") {
-            alert("why would you come here then?");
-            document.write("why would you come here then?");
-        } else {
-            alert("why would you say that?");
-            document.write("why would you say that?");
-        }
-        
-    </script>
+        {/* if (response == "yes") { */}
+            // alert("you are in the right place for sure!");
+            // document.write("you are in the right place for sure!");
+        // } else if (response == "no") {
+            // alert("why would you come here then?");
+            // document.write("why would you come here then?");
+        // } else {
+            // alert("why would you say that?");
+            // document.write("why would you say that?");
+        // }
+{/*          */}
+    {/* </script> */}
 
 
-</body>
+{/* </body> */}
 
 
 

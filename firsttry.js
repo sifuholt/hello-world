@@ -30,7 +30,7 @@
         if (response == "yes") {
             alert("you are in the right place for sure!");
             document.write("you are in the right place for sure!");
-        } else if (response == "no") {
+        }else if (response == "no") {
             alert("why would you come here then?");
             document.write("why would you come here then?");
         } else {
@@ -53,11 +53,13 @@
 
 
 
-function rateMyPage(){
+function rateMyPage() {
     let rating = prompt("how many stars would you rate my page?");
-    for (let i = 0; i < rating; i++){
-        document.write(",img src='star.jpg' alt="shiny gold star" />
+    for (let i = 0; i < rating; i++) {
+        document.write("<img src='' alt="" />");
     }
 }
+
+
 
 
